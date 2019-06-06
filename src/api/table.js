@@ -1,0 +1,16 @@
+import request from '@/utils/request'
+
+export function getList(params) {
+  return request({
+    url: '/table/list',
+    method: 'get',
+    params
+  })
+}
+export function getList2(params) {
+  return request({
+    url: '/table/policyList',
+    method: 'get',
+    params
+  })
+}
